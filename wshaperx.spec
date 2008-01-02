@@ -11,6 +11,7 @@ Group:     System/Servers
 Url:       http://lartc.org/wondershaper/
 Source:    %name-%version.tar.bz2
 Patch0:	   wshaperx-1.1a.x1-pinit.patch.bz2
+BuildRoot: %_tmppath/%name-%version
 BuildArch: noarch
 Requires(pre): rpm-helper
 
