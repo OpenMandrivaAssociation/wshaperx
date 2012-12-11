@@ -1,2 +1,3 @@
 sources:
-  "wshaperx-1.1a.x1.tar.bz2:"	8c1e42f995b3bce8b77dd95f260767348f9cf2ff
+  "wshaperx-1.1a.x1-pinit.patch.bz2": c65cd69b7f5c63c5a1aed9551d99c0ac16da33ac
+  "wshaperx-1.1a.x1.tar.bz2": 8c1e42f995b3bce8b77dd95f260767348f9cf2ff

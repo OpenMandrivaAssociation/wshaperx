@@ -74,3 +74,51 @@ echo "before this package will be of any use to you."
 %_sysconfdir/sysconfig/network-scripts/ifdown.d/wshaperx
 %_sysconfdir/rc.d/init.d/wshaperx
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.1a.x1-10mdv2010.0
++ Revision: 434982
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.1a.x1-9mdv2009.0
++ Revision: 262175
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.1a.x1-8mdv2009.0
++ Revision: 256403
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 1.1a.x1-6mdv2008.1
++ Revision: 129477
+- kill re-definition of %%buildroot on Pixel's request
+- import wshaperx
+
+
+* Mon Jan  9 2006 Olivier Blin <oblin@mandriva.com> 1.1a.x1-6mdk
+- fix typo in initscript
+
+* Mon Jan  9 2006 Olivier Blin <oblin@mandriva.com> 1.1a.x1-5mdk
+- convert parallel init to LSB
+
+* Sun Jan  1 2006 Couriousous <couriousous@mandriva.org> 1.1a.x1-4mdk
+- Add parallel init stuff
+
+* Thu Jun 02 2005 Nicolas Lécureuil <neoclust@mandriva.org> 1.1a.x1-3mdk
+- Rebuild
+
+* Mon Apr 19 2004 Michael Scherer <misc@mandrake.org> 1.1a.x1-2mdk 
+- Birthday rebuild 
+
+* Wed Apr 02 2003 Lenny Cartier <lenny@mandrakesoft.com> 1.1a.x1-1mdk
+- from andi payn <payn@myrealbox.com> :
+	- 1.1a.x1
+
+* Thu Jan 30 2003 Lenny Cartier <lenny@mandrakesoft.com> 1.1a-2mdk
+- rebuild
+
+* Tue May 21 2002 Lenny Cartier <lenny@mandrakesoft.com> 1.1a-1mdk
+- 1.1a
