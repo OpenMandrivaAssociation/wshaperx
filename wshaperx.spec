@@ -1,6 +1,6 @@
 %define name wshaperx
 %define version 1.1a.x1
-%define release %mkrel 10
+%define release 11
 
 Summary:   Helps maintain interactive latency on modem/ADSL/cable
 Name:	   %name
